@@ -13,7 +13,6 @@ This project demonstrates a complete **ELT (Extract, Load, Transform)** data pip
 - **dbt (data build tool)** – SQL-based transformation  
 - **Apache Airflow (via Docker)** – Workflow orchestration  
 - **Power BI** – Dashboard & reporting  
-- **Python** – Scripting for extraction and orchestration  
 - **Docker** – For managing Airflow environment
 
 ---
