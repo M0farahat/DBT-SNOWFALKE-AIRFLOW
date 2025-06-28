@@ -2,13 +2,8 @@
 
 ## 📌 Project Overview
 
-This project demonstrates a complete **ELT (Extract, Load, Transform)** data pipeline:
+This project demonstrates a complete **ELT (Extract, Load, Transform)** data pipeline
 
-- **Extract & Load** using Python and Airflow
-- **Transform** with dbt and Snowflake
-- **Visualize** using Power BI
-
-This project was implemented under the guidance of **Eng. Asnam Ali**, based on her YouTube tutorial.
 
 ---
 
