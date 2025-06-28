@@ -1,15 +1,52 @@
-Welcome to your new dbt project!
+# ELT Project with Snowflake, dbt, Airflow, and Power BI
 
-### Using the starter project
+## 📌 Project Overview
 
-Try running the following commands:
-- dbt run
-- dbt test
+This project demonstrates a complete **ELT (Extract, Load, Transform)** data pipeline:
+
+- **Extract & Load** using Python and Airflow
+- **Transform** with dbt and Snowflake
+- **Visualize** using Power BI
+
+This project was implemented under the guidance of **Eng. Asnam Ali**, based on her YouTube tutorial.
+
+---
+
+## 🧰 Technologies Used
+
+- **Snowflake** – Cloud Data Warehouse  
+- **dbt (data build tool)** – SQL-based transformation  
+- **Apache Airflow (via Docker)** – Workflow orchestration  
+- **Power BI** – Dashboard & reporting  
+- **Python** – Scripting for extraction and orchestration  
+- **Docker** – For managing Airflow environment
+
+---
+
+## 🔄 Workflow
+
+1. **Data Extraction & Loading**  
+   Using Airflow DAGs to load CSV files into Snowflake (via stages & tables).
+
+2. **Data Transformation**  
+   Using dbt to create modular SQL models:
+   - `staging/` models: raw cleaned data
+   - `marts/` models: business-ready tables
+
+3. **Data Visualization**  
+   Connecting Power BI to Snowflake using Direct Query and building dynamic dashboards.
+
+---
+
+## 📊 Power BI Dashboard
+
+The dashboard includes:
+- KPIs: Total Sales, Customer Count, etc.
+- Time Series Analysis
+- Top Products / Customers / Countries
+- Status Distribution
+
+---
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
